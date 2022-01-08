@@ -1,0 +1,131 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+
+:root{
+    --prefix:#E8EDF0;
+}
+
+.full-page{
+    height: 100%;
+    position: relative;
+}
+
+.first-adapter{
+    background: url("img/background.jpg");
+    background-size: cover;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,.325);
+    z-index: 99999;
+
+}
+
+.navbar-brand{
+    font-family: 'Poppins',-apple-system;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.nav-item a{
+    font-family: 'Poppins',-apple-system;
+    color: #444;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.welcome-main{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: calc(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.big-title{
+    font-size: 36px;
+    font-family: 'Montserrat';
+    color: #000;
+    font-weight: 700;
+    color: rgba(255,255,255,.95);
+    text-shadow: 0px 0px 3px rgba(0,0,0,.8);
+}
+
+.img-holder{
+    text-align: center;
+}
+
+.img-holder img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 100%;
+    box-shadow: 0 0 3px -1px rgba(0,0,0,.4);
+    border: 0.3px solid rgba(0,0,0,.5);
+}
+
+.medium-title{
+    color: rgba(255,255,255,.70);
+    text-align: center;
+    font-size: 24px;
+    text-shadow: 0px 0px 3px rgba(0,0,0,.3);
+}
+
+.second-adapter{
+    background: #DBE5F0;
+    position: relative;
+}
+
+.text-projects{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.pacifico{
+    font-family: 'Pacifico';
+    color: black;
+}
+
+.brand{
+    color: black;
+}
+
+.text-projects{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-control{
+    box-shadow: none!important;
+}
+
+.form-control:active{
+    border: 0.4px solid #3CC1E3;
+}
+.form-control:focus{
+    border: 0.4px solid #3CC1E3;
+}
+
+.btn{
+    box-shadow: none!important;
+}
+
+@media screen and (max-width: 600px) {
+    .big-title{
+        font-size: 24px;
+    }
+
+    .medium-title{
+        font-size: 18px;
+    }
+
+    body{
+        background-position: center;
+        background-size: contain;
+    }
+}
